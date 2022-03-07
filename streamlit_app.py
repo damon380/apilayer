@@ -1,8 +1,3 @@
 import streamlit as st
-menu_items = {
-	'Get help': 'http://techmeme.com',
-	'Report a bug?': 'http://woolwich.xyz'
-}
-
-st.set_page_config(menu_items=menu_items)
+st.set_page_config(page_title=None, page_icon=None, layout="centered", initial_sidebar_state="auto", menu_items=None)
 st.write("Apilayer")
