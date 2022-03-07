@@ -1,7 +1,7 @@
 import streamlit as st
 menu_items = {
 	'Get help': 'http://techmeme.com',
-	'Report a bug': 'http://woolwich.xyz,
+	'Report a bug': 'http://woolwich.xyz',
 	'About': '''
 	 ## My Custom App
 
