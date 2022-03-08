@@ -7,7 +7,7 @@ st.set_page_config(layout="wide",
 #         'About': "# This is a header. This is an *extremely* cool app!",
 #         'View App Source':None
 #        }
- menu_items=None                 
+ menu_items={'View App Source' : None}                 
                   )
 
 #hide_menu_style = """
