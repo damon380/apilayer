@@ -1,13 +1,15 @@
 import streamlit as st
 
-st.set_page_config(layout="wide")
+st.set_page_config(layout="wide"
+                  
+                  )
 
-hide_menu_style = """
-        <style>
-        #MainMenu {visibility: hidden;}
-        </style>
-        """
-st.markdown(hide_menu_style, unsafe_allow_html=True)
+#hide_menu_style = """
+#        <style>
+#        #MainMenu {visibility: hidden;}
+#        </style>
+#        """
+#st.markdown(hide_menu_style, unsafe_allow_html=True)
 
 c1, c2 = st.columns((1, 1))
 
