@@ -6,8 +6,8 @@ st.set_page_config(layout="wide",
 #         'Report a bug': "https://www.extremelycoolapp.com/bug",
 #         'About': "# This is a header. This is an *extremely* cool app!",
 #         'View App Source':None
-         }
-                  
+#        }
+ menu_items=None                 
                   )
 
 #hide_menu_style = """
