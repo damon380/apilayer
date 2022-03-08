@@ -1,5 +1,5 @@
 import streamlit as st
-st.write("Apilayer")
+
 st.set_page_config(layout="wide")
 c1, c2 = st.columns((1, 1))
 
