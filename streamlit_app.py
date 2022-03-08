@@ -7,15 +7,15 @@ st.set_page_config(layout="wide",
 #         'About': "# This is a header. This is an *extremely* cool app!",
 #         'View app source':"# This is a header. This is an *extremely* cool app!"
 #        }
- menu_items={'View App Source' : None}                 
+# menu_items={'View App Source' : None}                 
                   )
 
-#hide_menu_style = """
-#        <style>
-#        #MainMenu {visibility: hidden;}
-#        </style>
-#        """
-#st.markdown(hide_menu_style, unsafe_allow_html=True)
+hide_menu_style = """
+        <style>
+        #MainMenu {visibility: hidden;}
+        </style>
+        """
+st.markdown(hide_menu_style, unsafe_allow_html=True)
 
 c1, c2 = st.columns((1, 1))
 
