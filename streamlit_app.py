@@ -1,5 +1,5 @@
 import streamlit as st
-
+stt.set_theme({'primary': '#F20056'})
 st.set_page_config(layout="wide", 
 #                   menu_items={
 #         'Get Help': 'https://www.extremelycoolapp.com/help',
