@@ -1,4 +1,6 @@
 import streamlit as st
+import streamlit_theme as stt
+
 stt.set_theme({'primary': '#F20056'})
 st.set_page_config(layout="wide", 
 #                   menu_items={
