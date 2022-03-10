@@ -20,7 +20,7 @@ st.markdown(hide_menu_style, unsafe_allow_html=True)
 
 
 
-
+@st.cache(suppress_st_warning=True)
 def main():
     st.header('Text and Audio Extractor with Streamlit')
     st.sidebar.title("Text and Audio Extractor")
